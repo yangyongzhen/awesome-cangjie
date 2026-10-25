@@ -257,6 +257,17 @@ projects:
       en: Multi-agent collaboration framework based on Cangjie.
     tags: [ai, agent, multi-agent, framework]
 
+  - id: cjh
+    name:
+      zh: cjh
+      en: cjh
+    category: ai
+    repository: https://atomgit.com/qq8864/cjh
+    description:
+      zh: 用仓颉从零实现的终端编码代理（Coding Agent Harness）：静态单二进制零依赖，含 TUI 与内置 Web 界面、工具调用与审批、插件信任链。
+      en: 'A terminal coding agent harness written from scratch in Cangjie: one static binary with zero dependencies, a TUI plus built-in web UI, tool execution with approvals, and a plugin trust chain.'
+    tags: [ai, agent, coding-agent, cli]
+
   - id: deque4cj
     name:
       zh: deque4cj
@@ -531,6 +542,17 @@ projects:
       zh: 面向人和 AI 共同工作的仓颉自绘 GUI 框架：仓颉组件与布局、Metal 场景合成、公开对象与授权动作 API 支持人机接续编辑同一份应用状态（开发预览，macOS 优先）。
       en: A self-drawn GUI framework for Cangjie where humans and AI work together — Cangjie components and layout, Metal scene composition, and public object/action APIs letting humans and external agents co-edit the same application state (preview, macOS first).
     tags: [gui, metal, desktop, human-ai-collaboration, self-drawn]
+
+  - id: cj-tauri
+    name:
+      zh: cj-tauri
+      en: cj-tauri
+    category: gui
+    repository: https://atomgit.com/qq8864/cj-tauri
+    description:
+      zh: 用仓颉写桌面应用的类 Tauri 混合框架：后端静态编译 + 系统 WebView（WebView2 / WebKitGTK / ArkWeb）前端，含 IPC 双向桥、能力白名单与插件体系（14 个官方插件），产物几 MB 级，Windows / Linux / 鸿蒙 PC 均已实机跑通，可 `npx cj-tauri create` 起工程。
+      en: A Tauri-like hybrid desktop framework for Cangjie — a statically compiled Cangjie backend plus a system WebView front end (WebView2 / WebKitGTK / ArkWeb), with a bidirectional IPC bridge, a capability allowlist model and a plugin system (14 official plugins); multi-megabyte binaries, verified on Windows, Linux and HarmonyOS PC. Scaffold with `npx cj-tauri create`.
+    tags: [tauri, webview, desktop, ipc, plugin-system, cross-platform, harmonyos]
 
   - id: louke
     name:
