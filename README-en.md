@@ -45,6 +45,7 @@ English | [中文](README.md)
 
 - [CangjieMagic](https://gitcode.com/Cangjie-TPC/CangjieMagic) - LLM Agent development framework built with Cangjie. Main features: Agent DSL, MCP protocol support, modular invocation, intelligent task planning.
 - [CangChain](https://gitcode.com/Cangjie-TPC/CangChain) - Multi-agent collaboration framework based on Cangjie.
+- [cjh](https://atomgit.com/qq8864/cjh) - A terminal coding agent harness written from scratch in Cangjie: one static binary with zero dependencies, a TUI plus built-in web UI, tool execution with approvals, and a plugin trust chain.
 
 ### Collection
 
@@ -112,6 +113,7 @@ English | [中文](README.md)
 - [webview-sdk](https://gitcode.com/service/webview-sdk) - WebView bindings for Cangjie; develop desktop applications using any web technology.
 - [CJQT](https://gitcode.com/Cangjie-TPC/CJQT) - Qt binding library for Cangjie language.
 - [CJGUI](https://gitcode.com/aiulms/cjgui) - A self-drawn GUI framework for Cangjie where humans and AI work together — Cangjie components and layout, Metal scene composition, and public object/action APIs letting humans and external agents co-edit the same application state (preview, macOS first).
+- [cj-tauri](https://atomgit.com/qq8864/cj-tauri) - A Tauri-like hybrid desktop framework for Cangjie — a statically compiled Cangjie backend plus a system WebView front end (WebView2 / WebKitGTK), with a bidirectional IPC bridge, a capability allowlist model and a plugin system; multi-megabyte binaries, verified on Windows and Linux.
 
 ### Job Scheduling
 

@@ -45,6 +45,7 @@
 
 - [CangjieMagic](https://gitcode.com/Cangjie-TPC/CangjieMagic) - LLM Agent 开发框架基于仓颉编程语言构建，主要特性包括：Agent DSL、支持MCP协议、支持模块化调用、支持智能任务规划。
 - [CangChain](https://gitcode.com/Cangjie-TPC/CangChain) - 基于仓颉的多智能体协同框架。
+- [cjh](https://atomgit.com/qq8864/cjh) - 用仓颉从零实现的终端编码代理（Coding Agent Harness）：静态单二进制零依赖，含 TUI 与内置 Web 界面、工具调用与审批、插件信任链。
 
 ### 数据集合
 
@@ -112,6 +113,7 @@
 - [webview-sdk](https://gitcode.com/service/webview-sdk) - 仓颉语言绑定 webview；可以使用任何 web 技术开发你的桌面程序。
 - [CJQT](https://gitcode.com/Cangjie-TPC/CJQT) - 仓颉语言对 Qt 封装库。
 - [CJGUI](https://gitcode.com/aiulms/cjgui) - 面向人和 AI 共同工作的仓颉自绘 GUI 框架：仓颉组件与布局、Metal 场景合成、公开对象与授权动作 API 支持人机接续编辑同一份应用状态（开发预览，macOS 优先）。
+- [cj-tauri](https://atomgit.com/qq8864/cj-tauri) - 用仓颉写桌面应用的类 Tauri 混合框架：后端静态编译 + 系统 WebView（WebView2 / WebKitGTK）前端，含 IPC 双向桥、能力白名单与插件体系，产物几 MB 级，Windows / Linux 已实机跑通。
 
 ### 任务调度
 
